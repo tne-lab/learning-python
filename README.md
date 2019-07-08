@@ -34,7 +34,7 @@ This may take a bit depending on your experience programming. learnpython.org lo
 ### Download data from google drive
 TNEL-UMN/Protocols and Tutorials/Python
 
-Copy folder OP7 into data folder within learning-python folder.
+Copy folder OP7 into folder named data within learning-python folder.
 
 ### Open Main in juypter
 Start a juypter notdebook and open up the main.ipynb file which is located in the folder that you cloned from github.
