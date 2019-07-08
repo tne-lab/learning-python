@@ -36,7 +36,7 @@ TNEL-UMN/Protocols and Tutorials/Python
 
 Copy folder OP7 into folder named data within learning-python folder.
 
-### Open Main in juypter
+### Open Main in juypter (in cmd line type: "jupyter notebook".  You should then see it open in your browser)
 Start a juypter notdebook and open up the main.ipynb file which is located in the folder that you cloned from github.
 
 Complete it.
