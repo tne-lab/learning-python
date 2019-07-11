@@ -13,6 +13,8 @@ Option 2) Install basic python (https://www.python.org/)
 ### Learn basic python
 This may take a bit depending on your experience programming. learnpython.org looks like a very good starting point. I would work through the "Learn the Basics" and "Data Science Tutorials" as a first step. Make sure you understand for loops, dictionaries, arithmetic, and if/else statements. If you want some more help there are lots of other options too. Youtube, w3schools (only up to file handling), etc. If you have no programming experience an hour a day for a week should get you more than ready for our first project on Thursday.
 
+There are also some phone apps that are really great if you're looking to learn while riding the bus!
+
 ### Setting up GitHub
 - Create a github account. (DON'T USE UMN EMAIL!)
 
