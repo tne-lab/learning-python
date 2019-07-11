@@ -1,6 +1,6 @@
 # TNEL Python Tutorial
 
-Using python for ephys data
+Using python for neuroscience
 
 ## Step 1 (by yourself)
 ### Setting up Python
@@ -11,14 +11,27 @@ Option 1) Install anaconda (has a bunch of very useful modules and programs buil
 Option 2) Install basic python (https://www.python.org/)
 
 ### Learn basic python
-This may take a bit depending on your experience programming. learnpython.org looks like a very good starting point. Lots of other options too. Youtube, w3schools (only up to file handling), etc.
+This may take a bit depending on your experience programming. learnpython.org looks like a very good starting point. I would work through the "Learn the Basics" and "Data Science Tutorials" as a first step. Make sure you understand for loops, dictionaries, arithmetic, and if/else statements. If you want some more help there are lots of other options too. Youtube, w3schools (only up to file handling), etc. If you have no programming experience an hour a day for a week should get you more than ready for our first project on Thursday.
 
-## Step 2 (With us)
 ### Setting up GitHub
 - Create a github account. (DON'T USE UMN EMAIL!)
 
-- Download git (https://gitforwindows.org/).
+- If on windows or mac, download git (https://git-scm.com/downloads).
 
+### Ensure Jupyter is installed
+Open a jupyter notebook and open something like a simple helloworld.py file.
+
+If you can't open jupyter. Open a command line window and type "python pip install jupyter" and try again. If you're struggling I would advise to just install anaconda.
+
+### Download data from google drive
+TNEL-UMN/Protocols and Tutorials/Python
+
+Download folder OP7
+
+Contact me (schat107@umn.edu) if you don't have access to our drive.
+
+## Step 2 (With us)
+### Setting up GitHub
 - Open Git Bash
 
 - Use commands "cd" (change directory) and "ls" (list) to change to where you want to save your files. i.e. "cd Documents"
@@ -31,15 +44,11 @@ This may take a bit depending on your experience programming. learnpython.org lo
 
 - Back to git bash and type "git clone https://github.com/CHANGETOYOURUSERNAME/learning-python". This creates a local copy for yourself.
 
-### Download data from google drive
-TNEL-UMN/Protocols and Tutorials/Python
-
-Copy folder OP7 into folder named data within learning-python folder.
+### Move data into working folder
+Create a folder called data in learning-python folder. Copy folder OP7 into here.
 
 ### Open Main in juypter (in cmd line type: "jupyter notebook".  You should then see it open in your browser)
-Start a juypter notdebook and open up the main.ipynb file which is located in the folder that you cloned from github.
-
-Complete it.
+Start a juypter notebook and open up the main.ipynb file which is located in the folder that you cloned from github.
 
 ## Step 3
 ### Push your new changes to github so they will be backed up.
