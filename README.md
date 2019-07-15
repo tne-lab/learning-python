@@ -26,11 +26,9 @@ Open a jupyter notebook and open something like a simple helloworld.py file.
 If you can't open jupyter. Open a command line window and type "python pip install jupyter" and try again. If you're struggling I would advise to just install anaconda.
 
 ### Download data from google drive
-TNEL-UMN/Protocols and Tutorials/Python
+https://drive.google.com/drive/folders/1f4Ym9FUcWXKRRy745LZKMaqW3Pwtpzs2?usp=sharing
 
-Download folder OP7
-
-Contact me (schat107@umn.edu) if you don't have access to our drive.
+Contact me (schat107@umn.edu) if you are having trouble accessing.
 
 ## Step 2 (With us)
 ### Setting up GitHub
