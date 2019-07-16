@@ -45,7 +45,7 @@ Contact me (schat107@umn.edu) if you are having trouble accessing.
 - Back to git bash and type "git clone https://github.com/CHANGETOYOURUSERNAME/learning-python". This creates a local copy for yourself.
 
 ### Move data into working folder
-Create a folder called data in learning-python folder. Copy folder OP7 into here.
+Create a folder called data in learning-python folder. Copy folder Sample_Data into here.
 
 ### Open Main in juypter (in cmd line type: "jupyter notebook".  You should then see it open in your browser)
 Start a juypter notebook and open up the main.ipynb file which is located in the folder that you cloned from github.
