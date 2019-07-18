@@ -1,28 +1,19 @@
-from scipy.signal import butter, lfilter
+from scipy import signal
 
 '''
-Option 1
-
 How Mark S did this.
+From "https://scipy-cookbook.readthedocs.io/items/ButterworthBandpass.html"
 '''
-def butter_bandpass(lowcut, highcut, fs, order=5):
+def butter_bandpass(lowcut, highcut, fs, order=2):
     nyq = 0.5 * fs
     low = lowcut / nyq
     high = highcut / nyq
-    b, a = butter(order, [low, high], btype='band')
+    b, a = signal.butter(order, [low, high], btype='band')
     return b, a
 
 
-def butter_bandpass_filter(data, lowcut, highcut, fs, order=5):
+def butter_bandpass_filter(data, lowcut, highcut, fs, order=2):
     b, a = butter_bandpass(lowcut, highcut, fs, order=order)
-    filteredData = lfilter(b, a, data)
+    filteredData = signal.lfilter(b, a, data)
     return filteredData
 
-
-'''
-Option 2
-
-Example from scipy.
-'''
-sos = signal.butter(10, 15, 'hp', fs=1000, output='sos')
-filtered = signal.sosfilt(sos, sig)
